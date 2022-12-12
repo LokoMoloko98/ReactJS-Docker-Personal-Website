@@ -1,5 +1,5 @@
 # select your base image to start with
-FROM node:latest
+FROM node:10.19.0
 
 # Create app directory
 # this is the location where you will be inside the container
