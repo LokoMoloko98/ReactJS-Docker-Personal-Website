@@ -1,6 +1,6 @@
 <div align="center">
-  <h1><br>Moloko Mokubedi React.js Website</h1>
-  <h3><a href="https://matthewjigalin-react-portfolio.netlify.app/" target="_blank">Live Preview</a></h3>
+  <h1><br>Moloko Mokubedi's React.js Website</h1>
+  <!-- <h3><a href="https://matthewjigalin-react-portfolio.netlify.app/" target="_blank">Live Preview</a></h3> -->
 </div>
 <br>
 
