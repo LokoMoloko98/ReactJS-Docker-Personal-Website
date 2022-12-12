@@ -15,3 +15,16 @@ A simple one-page React.js personal website of Moloko Mokubedi made based off th
 - [react-reveal](https://github.com/rnosov/react-reveal)
 - [react-is-visible](https://github.com/lessp/react-is-visible)
 - [formsspree](https://formspree.io/)
+
+##  💻 Run locally
+
+1. Clone/Download the repo.
+
+2. Install npm
+  ```
+   Run npm install.
+  ```
+3. Start a local express server to serve on port 3000 (you can changs the port number in line 6 of the server\server.js file)
+  ```
+  npm start
+  ```
