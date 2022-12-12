@@ -22,7 +22,7 @@ A simple one-page React.js personal website of Moloko Mokubedi made based off th
 
 2. Install npm
   ```
-   Run npm install.
+   npm install
   ```
 3. Start a local express server to serve on port 3000 (you can changs the port number in line 6 of the server\server.js file)
   ```
