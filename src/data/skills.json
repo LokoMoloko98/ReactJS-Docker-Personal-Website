@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "skillName": "🛠️ Python",
+      "amount": "100",
+      "details": "I have roughly 4.5 years of Python programming experience. I am proficient in using the following data science libraries."
+    },
+    {
+      "id": 1,
+      "skillName": "🛠️ Linux Bash",
+      "amount": "100",
+      "details": "Having been introduced to Unix-based operating systems in 2019, I have slowly transitioned to using Linux distributions on a full time basis. This meant getting used to troubleshooting my machine using Bash commands regularly and becoming more familiar with fundamental commands."
+    },
+    {
+      "id": 2,
+      "skillName": "🛠️ Java",
+      "amount": "100",
+      "details": "Java is the second programming language that I learned. It is not my programming language of choice due to it being statically typed, which means less flexibility in scripting solutions and more time worrying about whether the code will compile rather than narrowing in on the solution. "
+    },
+    {
+      "id": 3,
+      "skillName": "🌐 Amazon Web Services (AWS)",
+      "amount": "100",
+      "details": "AWS is my go-to web services provider. A majority of my projects are hosted or managed via AWS Elastic Cloud Compute (EC2), AWS Amplify or AWS Lightsail. I'm an AWS Certified Cloud Practitioner and I am currently working on attaining the AWS Developer Associate Certificate."
+    },
+    {
+      "id": 4,
+      "skillName": "🧰 Git", 
+      "amount": "100",
+      "details": "I learnt the basics of source control and software project management as part of my Computer Science curriculumn at UCT. Git is my version control tool of choice when it comes managing source code repositories at local machine level and on online source control vendor GitHub."
+    }
+  ]
+}
