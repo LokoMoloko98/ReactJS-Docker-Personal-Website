@@ -6,7 +6,7 @@
 
 ## 💬 Overview:
 
-A simple one-page React.js personal website of Moloko Mokubedi made based off the original project by [Julian C](https://github.com/juliancesaro) and the modified version of the same project by [Matthew Jigalin](https://github.com/jigalin/portfolio-landing-page?ref=reactjsexample.com). Cu
+A simple one-page React.js personal website of Moloko Mokubedi made based off the original project by [Julian C](https://github.com/juliancesaro) and the modified version of the same project by [Matthew Jigalin](https://github.com/jigalin/portfolio-landing-page?ref=reactjsexample.com).
 
 ## 🛠️ Packages & APIs
 
@@ -24,7 +24,7 @@ A simple one-page React.js personal website of Moloko Mokubedi made based off th
   ```
    npm install
   ```
-3. Start a local express server to serve on port 8000 (you can changs the port number in line 6 of the server\server.js file):
+3. Start a local express server to serve on port 8000 (you can change the port number in line 6 of the server\server.js file):
   ```
   npm start
   ```
