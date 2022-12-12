@@ -36,8 +36,9 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'DevOps Engineer.',
+                    'DevOps Learner.',
                     'Linux OS Enthusiast.',
+                    'Machine Learning Fanatic' 
                   ],
                   autoStart: true,
                   loop: true,
@@ -78,7 +79,7 @@ const Home = () => {
                 duration={500}
               >
                 <ArrowDropDownCircleIcon
-                  fontSize="large"
+                  fontSize="small"
                   style={{ pointerEvents: 'fill', cursor: 'pointer' }}
                 />
               </Link>

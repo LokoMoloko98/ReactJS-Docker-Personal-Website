@@ -32,7 +32,7 @@ const About = () => {
             </p>
             
             <p>
-              🧗🏿 My interests include traveling, rock climbing, gaming, road running,                 
+              🧗🏿 My interests include traveling and road running,                 
             </p>
             </div>
         </Fade>
