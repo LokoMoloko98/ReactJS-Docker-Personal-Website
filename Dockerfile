@@ -24,4 +24,4 @@ EXPOSE 8000
 
 # Command to run when the container is ready
 # Separate arguments as separate values in the array
-CMD [ "npm", "run", "start"]
+CMD [ "npm", "start"]
