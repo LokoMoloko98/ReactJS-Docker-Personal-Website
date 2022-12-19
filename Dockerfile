@@ -1,28 +1,23 @@
-# select your base image to start with
-FROM node:latest
+# Use the official Node.js 10 image.
+# https://hub.docker.com/_/node
+FROM node:12.22.9
 
-# Create app directory
-# this is the location where you will be inside the container
+# Create and change to the app directory.
 WORKDIR /usr/src/app
 
-
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-# copying packages first helps take advantage of docker layers
+# Copy application dependencies.
+# A wildcard is used to ensure both package.json AND package-lock.json are copied.
+# Copying this separately prevents re-running npm install on every code change.
 COPY package*.json ./
 
+# Install dependencies.
 RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
 
-# Bundle app source
+# Copy local code to the container image.
 COPY . .
 
-# Make this port accessible from outside the container
-# Necessary for your browser to send HTTP requests to your Node app
-EXPOSE 3000
+# Run the webpack build script.
+RUN npm run build
 
-# Command to run when the container is ready
-# Separate arguments as separate values in the array
-CMD [ "npm", "start"]
+# Run the server when the container starts.
+CMD [ "npm", "start" ]
