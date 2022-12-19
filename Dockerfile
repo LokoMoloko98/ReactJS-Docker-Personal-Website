@@ -1,9 +1,10 @@
 # select your base image to start with
-FROM node:10.19.0
+FROM node:latest
 
 # Create app directory
 # this is the location where you will be inside the container
 WORKDIR /usr/src/app
+
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -20,8 +21,8 @@ COPY . .
 
 # Make this port accessible from outside the container
 # Necessary for your browser to send HTTP requests to your Node app
-EXPOSE 8000
+EXPOSE 3000
 
 # Command to run when the container is ready
 # Separate arguments as separate values in the array
-CMD [ "npm", "run", "start"]
+CMD [ "npm", "start"]

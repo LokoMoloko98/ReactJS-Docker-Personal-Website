@@ -67,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
 const ContactForm = () => {
   const [status, setStatus] = useState('')
   const [emailText, setEmailText] = useState('')
+  const [nameText, setNameText] = useState('')
   const [messageText, setMessageText] = useState('')
 
   const classes = useStyles()
@@ -82,6 +83,7 @@ const ContactForm = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return
       if (xhr.status === 200) {
         setEmailText('')
+        setNameText('')
         setMessageText('')
         form.reset()
         setStatus('SUCCESS')
@@ -97,6 +99,11 @@ const ContactForm = () => {
     setEmailText(input)
   }
 
+  const handleNameChange = (event) => {
+    const input = String(event.target.value)
+    setNameText(input)
+  }
+
   const handleMessageChange = (event) => {
     const input = String(event.target.value)
     setMessageText(input)
@@ -110,6 +117,15 @@ const ContactForm = () => {
         action="https://formspree.io/f/mbjbnbvg"
         method="POST"
       >
+        <TextField
+          className={classes.email}
+          type="name"
+          name="name"
+          label="Name"
+          value={nameText}
+          onChange={handleNameChange}
+          variant="filled"
+        />
         <TextField
           className={classes.email}
           type="email"

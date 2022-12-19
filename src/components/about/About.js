@@ -14,13 +14,13 @@ const About = () => {
           <div className="about-text">
             <h2>Who is Moloko? 🤔 </h2>
             <p>
-              ⚡ Moloko is the all inquisitive, never-fear-to-try spirited chap who is always figuring out how to grow and improve, not just himself but also the organization with which he affiliates with.               
+              ⚡ Moloko is the inquisitive, never-fear-to-try spirited chap who is always figuring out how to grow and improve, not just himself but also the organization with which he affiliates with.               
             </p>
             <p>
-            ⚡ My curiosity has drawn me closer to technological advancements and the rapid manner in which they disrupt old systems in order to create improved ways of living. Becoming involved in these advancements is my major career goal, especially within the cloud technology space.
+            ⚡ My curiosity has drawn me closer to technological advancements and the rapid manner in which they disrupt old systems in order to create improved evolutionize humanity. Becoming involved in these advancements is my major career goal, especially within the cloud technology space.
             </p>
             <p>
-              👨🏿‍💻 I'm currently fulfil the role of Junior DevOps Engineer at <a href="https://cloud-fundis.co.za/"> Cloud Fundis </a> where I am focusing on learning and evemtually will be practising Infrastructure-as-Code, Software Containerization and Container Orchestration. 
+              👨🏿‍💻 Icurrently fulfil the role of Junior DevOps Engineer at <a href="https://cloud-fundis.co.za/"> Cloud Fundis </a> where I am focusing on learning and eventually practising Infrastructure-as-Code Deployments, Software Containerization and Container Orchestration. 
             </p>
 
             <p>
@@ -32,7 +32,7 @@ const About = () => {
             </p>
             
             <p>
-              🧗🏿 My interests include traveling and road running,                 
+              🧗🏿 My interests include traveling and road running.                 
             </p>
             </div>
         </Fade>
